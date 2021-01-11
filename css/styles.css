@@ -1,0 +1,247 @@
+:root {
+  --main-text: 'Roboto', sans-serif;
+  --logo-text: 'Raleway' sans-serif;
+  --body-collor: #ffffff;
+  --link-color: #2196f3;
+  --main-color: #212121;
+  --text-color: #757575;
+  --logo-color-black: #000000;
+  --logo-color-white: #ffffff;
+}
+
+/* 
+основной фон сайта   #ffffff
+основной цвет текста #212121
+цвет парагрофа       #757575
+цвет ссылок при навидении #2196F3
+*/
+/* ========== BODY ============= */
+
+body {
+  font-family: var(--main-text);
+  font-style: normal;
+  font-weight: normal;
+  background-color: var(--body-collor);
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-no-stule {
+  list-style: none;
+}
+
+/* ========== BODY =============== */
+
+/* =========== HEADER ============ */
+.logo {
+  font-family: var(--logo-text);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-black);
+}
+.logo-slogan {
+  color: #2196f3;
+}
+
+.menu-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.menu-nav:hover,
+.menu-nav:focus {
+  color: var(--link-color);
+}
+
+.color-atelier {
+  color: var(--link-color);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--link-color);
+}
+
+/* ============/ HEADER /=============== */
+
+/* ============== ГЛАВНЫЙ БЛОК ================== */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button-promo {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* =========== / ГЛАВНЫЙ БЛОК /============== */
+
+/* =============== НАШЕ ПРЕИМУЩЕСТВО ========== */
+
+.key-slogan {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* =============== / Наше ПРЕИМУЩЕСТВО / ========== */
+
+/* ================== ЧЕМ МЫ ЗАНИМАЕМСЯ =========================== */
+
+.we-do-text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/* ================== / ЧЕМ МЫ ЗАНИМАЕМСЯ / =========================== */
+
+/* ==================== НАША КОМАНДА =========================== */
+
+.team {
+  background: #f5f4fa;
+}
+
+.our-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* ==================== / НАША КОМАНДА /=========================== */
+
+/* ==================== FOOTER ============================== */
+
+.footer {
+  background: #2f303a;
+}
+
+.white-logo {
+  color: var(--logo-color-white);
+}
+
+.map-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.lower-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ====================== / FOOTER /============================== */
+
+/* ======================= * ПОРТФОЛИО * ====================== */
+
+.color-portfolio {
+  color: var(--link-color);
+}
+
+/* =================== Кнопки  (примеры работ)================ */
+.linc-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--main-color);
+}
+.linc-button:hover,
+.linc-button:focus {
+  background-color: var(--link-color);
+  color: #ffffff;
+}
+/* =================== / Кнопки  (примеры работ) / ================ */
+
+/* =================== Ссылки (Примеры работ)================ */
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.information-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* =================== / Ссылки (Примеры работ) /================ */
+
+/* ======================= / * ПОРТФОЛИО * / ====================== */
