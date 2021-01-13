@@ -39,7 +39,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border: 3px solid brown;
+  /* border: 3px solid brown; */
 }
 
 /* ========== BODY =============== */
@@ -291,7 +291,7 @@ a {
 
 .team-may {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team-may li:not(:last-child) {
