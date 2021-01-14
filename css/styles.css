@@ -142,10 +142,10 @@ a {
 }
 
 .hero-text {
-  padding-left: 280px;
-  padding-right: 280px;
   margin-top: 0;
   margin-bottom: 30px;
+  padding-left: 280px;
+  padding-right: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -156,6 +156,7 @@ a {
 }
 
 .button-promo {
+  cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
   font-weight: bold;
@@ -369,6 +370,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
