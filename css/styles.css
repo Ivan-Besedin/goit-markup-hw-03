@@ -36,10 +36,15 @@ a {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
   /* border: 3px solid brown; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ========== BODY =============== */
@@ -59,10 +64,13 @@ a {
   color: #2196f3;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 .menu-nav {
   display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -70,6 +78,12 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
+
+.main-nav a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .menu-nav:hover,
 .menu-nav:focus {
   color: var(--link-color);
@@ -87,11 +101,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
-}
-
-.header {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 /* .auth-nav .item .address {
@@ -141,11 +150,14 @@ a {
   padding-bottom: 200px;
 }
 
+.text-button {
+  display: inline-block;
+  background-color: #2f303a;
+  width: 696px;
+}
 .hero-text {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-left: 280px;
-  padding-right: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -250,6 +262,10 @@ a {
   padding-bottom: 94px;
 }
 
+.we-do ul {
+  padding: 0;
+}
+
 .portfolio {
   display: flex;
 }
@@ -270,7 +286,6 @@ a {
 
 .our-team {
   margin-top: 0;
-  margin-bottom: 50x;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -278,6 +293,11 @@ a {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+
+/* .may {
+  background-color: brown;
+  border: 1px solid black;
+} */
 
 .name {
   margin-top: 30px;
@@ -299,6 +319,15 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.team-may li {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-may {
@@ -424,22 +453,35 @@ a {
   color: var(--text-color);
 }
 
+.cards-box {
+  margin: 0;
+  width: 322px;
+  height: 70px;
+  margin: 20px 24px;
+}
+
+.cards {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .information {
   display: flex;
   flex-wrap: wrap;
 }
 
-.information li {
+.cards {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.information li:nth-child(3n) {
+.information .cards:nth-child(3n) {
   margin-right: 0;
 }
 
-.information li:nth-last-child(-n + 3) {
+.information .cards:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
