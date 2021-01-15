@@ -422,14 +422,13 @@ img {
   margin-bottom: 50px;
 }
 
-.button .linc-button {
+.button .li {
   margin-right: 8px;
 }
 
-/* НЕ РАБОТАЕТ? */
-/* .button .linc-button:not(:last-child) {
+.button li:not(:last-child) {
   margin-right: 8px;
-} */
+}
 
 /* =================== / Кнопки  (примеры работ) / ================ */
 
